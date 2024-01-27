@@ -1,0 +1,102 @@
+body{
+    background-image: url(https://img.freepik.com/free-photo/blue-screen-that-says-blue-it_1340-34865.jpg?size=626&ext=jpg&ga=GA1.1.1709607965.1700568923&semt=ais);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.C-cap {
+    /* Position the text */
+    position: absolute;
+    top: 50%; /* Position from the top */
+    left: 50%; /* Position from the left */
+    transform: translate(-50%, -50%);
+    /* Additional styling for text */
+    color: #f2f4f8;
+    text-align: center;
+    /* Other necessary styles */
+  }
+  /* Define the animation */
+  .animated-text {
+    animation-name: slideInFromLeft; /* Use your preferred animation name */
+    animation-duration: 1s; /* Set the duration */
+  }
+  
+  @keyframes slideInFromLeft {
+    0% {
+      opacity: 0;
+      transform: translateX(-50px); /* Initial position */
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0); /* Final position */
+    }
+  }
+  .entry{
+    background-image: url(https://img.freepik.com/free-photo/digital-low-poly-abstract-background-with-connecting-lines-dots_1048-6337.jpg?size=626&ext=jpg&ga=GA1.1.1709607965.1700568923&semt=ais);
+    background-repeat: no-repeat;
+  }
+  .lastdiv{
+    background-color: rgb(226, 238, 238);
+  }
+  .fade-in {
+    opacity: 0;
+    animation: fadeInAnimation 1.5s ease-in-out forwards;
+  }
+  
+  @keyframes fadeInAnimation {
+    from {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  .typewriter {
+    overflow: hidden; /* Ensures the text is hidden initially */
+    border-right: .15em solid orange; /* Blinking cursor */
+    white-space: nowrap; /* Keeps the text in a single line */
+    margin: 0; /* Reset margin */
+    letter-spacing: .10em; /* Adjust letter spacing for clarity */
+    animation: typing 3.5s steps(40, end), blink-caret .75s step-end infinite; /* Timing and steps for animation */
+  }
+  
+  /* Typewriter animation */
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  /* Blinking cursor animation */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: rgb(54, 153, 219) }
+  }
+  #about{
+    background-color: rgb(219, 235, 252);
+    border-radius: 10px;
+    
+  }
+  .about.animated {
+    animation-name: slideAnimation; /* Name of your animation */
+    animation-duration: 10s; /* Duration of the animation */
+    animation-iteration-count: infinite; /* Repeating the animation infinitely */
+  }
+  
+  @keyframes slideAnimation {
+    0% {
+      opacity: 0;
+      transform: translateY(-20px); /* Initial position or any other transformation */
+    }
+    50% {
+      opacity: 1;
+      transform: translateY(0); /* Middle position or any other transformation */
+    }
+    100% {
+      opacity: 0;
+      transform: translateY(20px); /* Final position or any other transformation */
+    }
+  }
+  #contact{
+    background-color: aliceblue;
+  }

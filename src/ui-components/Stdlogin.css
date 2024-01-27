@@ -1,0 +1,13 @@
+.stdlogin{
+    background-color: rgb(207, 236, 245);
+    margin:12%;
+    border-radius: 3%;
+}
+#emailbox{
+    padding-left: 20%;
+    padding-right: 20%;
+}
+#password{
+    padding-left: 20%;
+    padding-right: 20%;
+}

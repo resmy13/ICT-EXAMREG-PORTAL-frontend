@@ -1,0 +1,45 @@
+.regform{
+background-image: url(https://img.freepik.com/free-photo/white-paper-texture-background_23-2151025715.jpg?ga=GA1.2.1709607965.1700568923&semt=ais_ai_generated);
+margin:5%;
+border-radius: 2%;
+background-repeat: no-repeat;
+background-size: cover;
+
+}
+#tabs{
+    padding-left: 25%;
+    padding-right: 25%;
+}
+/* Styles for typewriter animation */
+/* Styles for typewriter animation */
+#stdh {
+    overflow: hidden; /* Hide overflow */
+    border-right: 3px solid orange; /* Cursor effect */
+    white-space: nowrap; /* Prevent line breaks */
+    width: 0; /* Initially set width to 0 */
+    animation: typing 3s steps(40) forwards, blink-caret 0.5s step-end 3s forwards;
+  }
+  
+  /* Keyframes for the typewriter effect */
+  @keyframes typing {
+    from {
+      width: 0;
+    }
+    to {
+      width: 100%;
+    }
+  }
+  
+  /* Blinking cursor animation */
+  @keyframes blink-caret {
+    from,
+    to {
+      border-color: transparent;
+    }
+    50% {
+      border-color: orange;
+    }
+  }
+  .dashnav{
+    background-color: rgb(229, 241, 252);
+  }
